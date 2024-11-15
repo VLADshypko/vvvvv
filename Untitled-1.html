@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            position: relative;
+            text-align: center;
+            color: white;
+            margin-bottom: 100px;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+        }
+
+        .cta {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .cta h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            margin-top: -350px;
+        }
+
+        .cta .btn {
+            padding: 10px 20px;
+            background-color: #ff6000;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .models-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .model-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: white;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кросівки Nike</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <P id="menu"></P>
+        <nav>
+            <img src="logo-nike.png" alt="Nike" class="logo">
+            <ul>
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#about">Про Nike</a></li>
+                <li><a href="#models">Моделі</a></li>
+                <li><a href="#technologies">Технології</a></li>
+                <li><a href="#shop">Покупка</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <div class="cta">
+                <h1>Дізнайся більше про кросівки Nike</h1>
+                <a href="#models" class="btn">Переглянути колекцію</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Про Nike</h2>
+        <p>Nike — це світовий лідер у створенні спортивного взуття, одягу та аксесуарів. Заснований в 1964 році, бренд
+            став синонімом інновацій і високої якості.</p>
+    </section>
+
+    <section id="models">
+        <h2>Популярні моделі</h2>
+        <div class="models-grid">
+            <div class="model-item">
+                <img src="air-max.jpg" alt="Nike Air Max">
+                <h3>Nike Air Max</h3>
+                <p>Комфорт і стиль для кожного кроку.</p>
+            </div>
+            <div class="model-item">
+                <img src="air-force-1.jpg" alt="Nike Air Force 1">
+                <h3>Nike Air Force 1</h3>
+                <p>Класичний стиль для вулиць.</p>
+            </div>
+            <!-- Додати інші моделі -->
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Nike, Inc. Всі права захищені.</p>
+    </footer>
+</body>
+
+</html>
