@@ -43,16 +43,13 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-.hero {
-    background-image: url('https://images.unsplash.com/photo-1557513740-9c30f17f0f9c');
+.logo {
+    background-image: url('https://www.freeiconspng.com/thumbs/nike-logo/nike-brand-logo-black-wallpaper-3.png');
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
 }
 
 .hero h1 {
@@ -182,3 +179,113 @@ footer {
         transform: translateY(-10px);
     }
 }
+
+header {
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cta h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: -350px;
+}
+
+.cta .btn {
+    padding: 10px 20px;
+    background-color: #ff6000;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.models-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.model-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+}
+/* .logo{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    margin-left: 100px;
+} */
+ .menu {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+ }
+ .menu nav {
+    display: flex;
+    align-items: anchor-center;
+    width: 120px;
+    height: 40px;
+    margin-left: 30px;
+ }
+ #main-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+ }
+ main {
+    margin: 60px auto;
+ }
