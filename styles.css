@@ -281,3 +281,41 @@ footer {
  main {
     margin: 60px auto;
  }
+ /* Стилі для елементів <label> з класом .form-label */
+.form-label {
+    display: block; /* Робимо label блоковим елементом */
+    margin-bottom: 8px; /* Відступ знизу */
+    font-size: 16px; /* Розмір тексту */
+    font-weight: bold; /* Жирний текст */
+    color: #333; /* Темно-сірий колір тексту */
+}
+
+/* Стилі для елементів <label> з класом .form-label при наведенні */
+.form-label:hover {
+    color: #111; /* Темніший колір тексту при наведенні */
+}
+
+/* Стилі для кнопки "Надіслати" */
+.submit-button {
+    background-color: #111; /* Темний фон */
+    color: #fff; /* Білий текст */
+    border: none; /* Видаляємо рамку */
+    padding: 15px 30px; /* Внутрішні відступи */
+    font-size: 16px; /* Розмір тексту */
+    cursor: pointer; /* Змінюємо курсор при наведенні */
+    border-radius: 5px; /* Заокруглені кути */
+    transition: background-color 0.3s ease; /* Плавний перехід кольору фону */
+    display: block; /* Робимо кнопку блоковим елементом */
+    margin: 20px auto 0; /* Відступ зверху та автоматичне центрування */
+}
+
+/* Стилі для кнопки при наведенні */
+.submit-button:hover {
+    background-color: #333; /* Темніший фон при наведенні */
+}
+
+/* Стилі для кнопки при натисканні */
+.submit-button:active {
+    background-color: #555; /* Ще темніший фон при натисканні */
+}
+
