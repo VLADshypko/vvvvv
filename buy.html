@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кросівки Nike</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -17,7 +17,9 @@
                 <li><a href="index.html">Головна</a></li>
                 <li><a href="about.html">Про Nike</a></li>
                 <li><a href="models.html">Моделі</a></li>
+                <li><a href="#shop">Покупка</a></li>
                 <li><a href="contact.html">Контакти</a></li>
+                <li><a href="#" id="cart-link">Кошик (<span id="cart-count">0</span>)</a></li>
             </ul>
         </nav>
     </header>
@@ -32,14 +34,25 @@
             </section>
         </section>
 
-        <!-- <section id="about">
-            <h2>Про Nike</h2> <br>
-            <p>Nike — це світовий лідер у створенні спортивного взуття, одягу та аксесуарів. Заснований в 1964 році,
-                бренд
-                став синонімом інновацій і високої якості.</p>
-        </section> -->
+        <section id="shop">
+            <h2>Магазин</h2>
+            <div class="product">
+                <h3>Nike Air Max</h3>
+                <p>Ціна: 5000 грн</p>
+                <button class="add-to-cart" data-id="1">Додати до кошика</button>
+            </div>
+            <div class="product">
+                <h3>Nike React</h3>
+                <p>Ціна: 4500 грн</p>
+                <button class="add-to-cart" data-id="2">Додати до кошика</button>
+            </div>
+        </section>
 
-    
+        <section id="cart">
+            <h2>Кошик</h2>
+            <ul id="cart-items"></ul>
+            <p>Загальна сума: <span id="cart-total">0</span> грн</p>
+        </section>
     </main>
 
     <footer id="main-footer">

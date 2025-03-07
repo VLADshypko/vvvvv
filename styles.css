@@ -318,4 +318,40 @@ footer {
 .submit-button:active {
     background-color: #555; /* Ще темніший фон при натисканні */
 }
+.abo{
+    text-align:center;
+}
+#cart {
+    display: none;
+}
+
+#cart.active {
+    display: block;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.buy-button {
+    background-color: #ff7b00;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+
 
